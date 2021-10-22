@@ -1,7 +1,5 @@
 package Kodlamaİo;
 
-import oopIntro.ProductMenager;
-
 public class Main {
     public static void main(String[] args) {
         Camps camp1 = new Camps(1, "JavaScript Geliştirme Kampı", "Engin Demiroğ", 10);
@@ -29,6 +27,16 @@ public class Main {
         campManager.toRegister(camp2);
 
         campManager.toRegister(camp3);
+
+        campManager.toRegister(camp4);
+
+        campManager.toFinish(camp1);
+
+        campManager.toFinish(camp2);
+
+        campManager.toFinish(camp3);
+
+        campManager.toFinish(camp4);
 
 
 
